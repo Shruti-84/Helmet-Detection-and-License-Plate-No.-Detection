@@ -1,0 +1,6 @@
+
+path: Datasets\BikeHelmet
+train: train/images
+val: valid/images
+nc: 2
+names: ['With Helmet', 'Without Helmet']
