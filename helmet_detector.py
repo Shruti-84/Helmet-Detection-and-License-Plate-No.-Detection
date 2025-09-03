@@ -4,7 +4,7 @@ import cvzone
 from ultralytics import YOLO
 
 # Load YOLO model with custom weights
-yolo_model = YOLO("Weights/best.pt")
+yolo_model = YOLO("mlproject.pt")
 
 # Define class names
 class_labels = ['With Helmet', 'Without Helmet']
